@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/user2/Documents/kunal_folder/rasa_chatbot/rasa_speech/rasa_sample_chatbot/./models/nlu/default/nlu_model/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/user2/Documents/kunal_folder/rasa_chatbot/rasa_speech/rasa_sample_chatbot/./models/nlu/default/nlu_model/intent_classifier_tensorflow_embedding.ckpt"

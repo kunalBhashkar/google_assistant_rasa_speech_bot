@@ -1,0 +1,41 @@
+{
+  "actions": [
+     {
+       "description": "Default Welcome Intent",
+       "name": "MAIN",
+       "fulfillment": {
+         "conversationName": "welcome"
+       },
+       "intent": {
+         "name": "actions.intent.MAIN",
+         "trigger": {
+           "queryPatterns":["talk to Place Finder"]
+         }
+       }
+     },
+   {
+       "description": "Rasa Intent",
+       "name": "TEXT",
+       "fulfillment": {
+         "conversationName": "rasa_intent"
+       },
+       "intent": {
+         "name": "actions.intent.TEXT",
+         "trigger": {
+           "queryPatterns":[]
+         }
+       }
+     }],
+   "conversations": {
+     "welcome": {
+       "name": "welcome",
+       "url": "https://fb887a23.ngrok.io",
+       "fulfillmentApiVersion": 2
+   },
+     "rasa_intent": {
+       "name": "rasa_intent",
+       "url": "http://3516e039.ngrok.io",
+       "fulfillmentApiVersion": 2
+   }
+ }
+}
